@@ -2464,6 +2464,11 @@ libbackward-cpp-dev:
   ubuntu:
     '*': [libbackward-cpp-dev]
     bionic: null
+libbdd-dev:
+  arch: [buddy]
+  debian: [libbdd-dev]
+  gentoo: [sci-libs/buddy]
+  ubuntu: [libbdd-dev]
 libbison-dev:
   debian: [libbison-dev]
   fedora: [bison-devel]
@@ -4191,6 +4196,7 @@ libmpich2-dev:
   nixos: [mpich]
   ubuntu: [libmpich2-dev]
 libmsgsl-dev:
+  alpine: [msgsl]
   arch: [microsoft-gsl]
   debian: [libmsgsl-dev]
   fedora: [guidelines-support-library-devel]
