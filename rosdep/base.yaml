@@ -5181,6 +5181,8 @@ libqhull:
   rhel: [qhull-devel]
   slackware: [qhull]
   ubuntu: [libqhull-dev]
+libqmi-dev:
+  alpine: [libqmi-dev]
 libqrencode:
   debian: [libqrencode3]
   fedora: [qrencode]
